@@ -7,7 +7,7 @@ My goal was to create a  simple feature extractor using MaxMSP and Wekinator tha
 For assignment to work, you will need:
 
 - MaxMSP and Wekinator
-- Max external object "sigmund~" which will track pitch input. Please note that there is a minimum amplitude threshold for sending OSC messages to Wekinator to minimize noise.
+- Max external object "sigmund~" which will track pitch input (the included sigmund~ object is in 64bit). Please note that there is a minimum amplitude threshold for sending OSC messages to Wekinator to minimize noise.
 - audio samples
 - an instrument that can output pitches ranging from G below middle C and D three octavos above middle C
 
